@@ -1,0 +1,2 @@
+*{margin:0;padding:0}#root,.App,.main,body,html{height:100%}.fixHeight,.side{height:100%;width:100%}.side,div{margin:auto}.content{height:100%;width:100%}.content-item{background-color:#f7f7f7;height:90%;margin:0 auto;width:90%}.grid{display:grid;grid-template-columns:minmax(200px,200px) 1fr}.nav-grid{display:grid;grid-template-rows:minmax(125px,125px) repeat(2,1fr) minmax(125px,125px);text-align:center}.nav-item-2{letter-spacing:.5px}
+/*# sourceMappingURL=main.3ac0ff5a.css.map*/
