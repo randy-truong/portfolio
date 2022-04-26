@@ -1,38 +1,31 @@
 import { NavLink, Outlet } from "react-router-dom";
+//import Navbar from "react-bootstrap/Navbar";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+//import Nav from "react-bootstrap/Nav";
+//import NavDropdown from "react-bootstrap/NavDropdown";
 import "./assets/styles/style.css";
+import Navbar from "./components/Navbar";
+
 
 function App() {
   return (
     <div className="main">
+      <div className="grid fixHeight">
+        <div class="item-1 fixHeight">
+          <Navbar />
+        </div>
+        <div class="item-2 fixHeight">
+          <Outlet />
+        </div>
+      </div>
 
-      <h1>Hello 1!</h1>
-      <nav>
-        <NavLink 
-        style={({ isActive }) => {
-          return {
-            display: "block",
-            margin: "1rem 0",
-            opacity: isActive ? "1.0" : "0.5",
-            textDecoration: "none"
-          };
-        }}
-        to="/About">
-          about
-        </NavLink>
-        <NavLink 
-        style={({ isActive }) => {
-          return {
-            display: "block",
-            margin: "1rem 0",
-            opacity: isActive ? "1.0" : "0.5",
-            textDecoration: "none"
-          };
-        }}
-        to="/Projects">
-          projects
-        </NavLink>
-      </nav>
-      <Outlet />
+
+    <footer className="copyright">
+      © 2022 Randy Truong. All rights reserved.
+    </footer>
+
     </div>
   );
 }
