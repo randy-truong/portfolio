@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1835d064.css",
-    "main.js": "/portfolio/static/js/main.1cf27c94.js",
+    "main.css": "/portfolio/static/css/main.b3c3ca41.css",
+    "main.js": "/portfolio/static/js/main.1812eb55.js",
     "static/media/SDIM0855.jpg": "/portfolio/static/media/SDIM0855.eec75f184574154a1535.jpg",
     "static/media/HelveticaNeue.woff": "/portfolio/static/media/HelveticaNeue.65877644b46894ded0bc.woff",
     "static/media/HelveticaNeue-Bold.woff": "/portfolio/static/media/HelveticaNeue-Bold.bb0b02985599ea3147e7.woff",
+    "static/media/Proj4.png": "/portfolio/static/media/Proj4.ad6a87a5e3fb899878ba.png",
+    "static/media/Proj2.png": "/portfolio/static/media/Proj2.92ab1c58495ddf6b387d.png",
     "static/media/HelveticaNeue-Bold.woff2": "/portfolio/static/media/HelveticaNeue-Bold.a64cc9be627ee7cfd79d.woff2",
+    "static/media/Proj3.png": "/portfolio/static/media/Proj3.4cdacabebb3b725709ed.png",
     "static/media/HelveticaNeue.woff2": "/portfolio/static/media/HelveticaNeue.ae611b890fe239bc3917.woff2",
+    "static/media/Proj1.png": "/portfolio/static/media/Proj1.085006af89a2a6fdadef.png",
     "index.html": "/portfolio/index.html",
-    "main.1835d064.css.map": "/portfolio/static/css/main.1835d064.css.map",
-    "main.1cf27c94.js.map": "/portfolio/static/js/main.1cf27c94.js.map"
+    "main.b3c3ca41.css.map": "/portfolio/static/css/main.b3c3ca41.css.map",
+    "main.1812eb55.js.map": "/portfolio/static/js/main.1812eb55.js.map"
   },
   "entrypoints": [
-    "static/css/main.1835d064.css",
-    "static/js/main.1cf27c94.js"
+    "static/css/main.b3c3ca41.css",
+    "static/js/main.1812eb55.js"
   ]
 }
